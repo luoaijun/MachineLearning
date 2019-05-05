@@ -3,15 +3,6 @@ import operator
 
 
 class knn:
-    '''
-    加载数据
-    '''
-
-    def create_dataset(self):
-        group = array([[1.0, 1.1], [1.0, 1.0], [0, 0], [0, 0.1]])
-        labels = ['A', 'A', 'B', 'B']
-        return group, labels
-
     # KNN-计算，归并，排序
     '''
     inX:输入向量
@@ -54,9 +45,6 @@ class knn:
             index += 1
         return returnMat, classLabelVector
 
-
-if __name__ == '__main__':
-    group, lebels = knn().create_dataset()
-    inX = [3, 3]
-    cc = knn().classify(inX, group, lebels, 4)
-    print(cc)
+    '''
+    归一化特征值
+    '''
