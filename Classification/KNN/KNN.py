@@ -4,6 +4,8 @@ import operator
 
 class knn:
     # KNN-计算，归并，排序
+
+
     '''
     inX:输入向量
     dataSet:训练数据集
@@ -50,7 +52,7 @@ class knn:
     将数据值归一到（0,1）
     '''
 
-    def autoNorm(self,dataSet):
+    def autoNorm(self, dataSet):
         minVals = dataSet.min(0)
         maxVals = dataSet.max(0)
         ranges = maxVals - minVals
@@ -58,3 +60,16 @@ class knn:
         normDataSet = dataSet - tile(minVals, (m, 1))
         normDataSet = normDataSet / tile(ranges, (m, 1))  # element wise divide
         return normDataSet, ranges, minVals
+
+    '''
+    图像处理
+    '''
+
+    def imgVector(self,fileName):
+        returnVect = zeros((1, 1024))
+        fr = open(fileName)
+        for i in range(32):
+            lineStr = fr.readline()
+            for j in range(32):
+                returnVect[0, 32 * i + j] = int(lineStr[j])
+        return returnVect
