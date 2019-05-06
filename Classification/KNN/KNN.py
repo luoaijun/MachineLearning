@@ -31,11 +31,11 @@ class knn:
     '''
 
     def getFile(self, fileName):
-        fr = open(filename)
+        fr = open(fileName)
         numberOfLines = len(fr.readlines())  # get the number of lines in the file
         returnMat = zeros((numberOfLines, 3))  # prepare matrix to return
         classLabelVector = []  # prepare labels return
-        fr = open(filename)
+        fr = open(fileName)
         index = 0
         for line in fr.readlines():
             line = line.strip()
@@ -47,4 +47,14 @@ class knn:
 
     '''
     归一化特征值
+    将数据值归一到（0,1）
     '''
+
+    def autoNorm(self,dataSet):
+        minVals = dataSet.min(0)
+        maxVals = dataSet.max(0)
+        ranges = maxVals - minVals
+        m = dataSet.shape[0]
+        normDataSet = dataSet - tile(minVals, (m, 1))
+        normDataSet = normDataSet / tile(ranges, (m, 1))  # element wise divide
+        return normDataSet, ranges, minVals
