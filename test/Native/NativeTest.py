@@ -1,7 +1,10 @@
 from numpy import *
 
 from Classification.NaiveBayes.Byte import Bytes
+
 byte = Bytes()
+
+
 def loadDataSet():
     postingList = [['my', 'dog', 'has', 'flea', 'problems', 'help', 'please'],
                    ['maybe', 'not', 'take', 'him', 'to', 'dog', 'park', 'stupid'],
@@ -41,22 +44,40 @@ def trainNB0(trainMatrix, trainCategory):
     p1Denom = 0.0  # change to 2.0
     for i in range(numTrainDocs):
         if trainCategory[i] == 1:
-            p1Num += trainMatrix[i] #侮辱性的
+            p1Num += trainMatrix[i]  # 侮辱性的
             p1Denom += sum(trainMatrix[i])
         else:
-            p0Num += trainMatrix[i]#非侮辱性的
+            p0Num += trainMatrix[i]  # 非侮辱性的
             p0Denom += sum(trainMatrix[i])
     p1Vect = p1Num / p1Denom  # change to log()
     p0Vect = p0Num / p0Denom  # change to log()
     return p0Vect, p1Vect, pAbusive
+
+
 def nativeTest():
     listPosts, listClasses = loadDataSet()
     list = createVocabList(listPosts)
     trainMat = []
     for postDoc in listPosts:
-        trainMat.append(setOfWords2Vec(list,postDoc))
-    p0V,p1V,pAb = trainNB0(trainMat,listClasses)
+        trainMat.append(setOfWords2Vec(list, postDoc))
+    p0V, p1V, pAb = trainNB0(trainMat, listClasses)
+
+
+def testingNB():
+    listOPosts, listClasses = loadDataSet()
+    myVocabList = createVocabList(listOPosts)
+    trainMat = []
+    for postinDoc in listOPosts:
+        trainMat.append(setOfWords2Vec(myVocabList, postinDoc))
+    p0V, p1V, pAb = trainNB0(array(trainMat), array(listClasses))
+    testEntry = ['love', 'my', 'dalmation']
+    thisDoc = array(setOfWords2Vec(myVocabList, testEntry))
+    print(testEntry, 'classified as: ', byte.classifyNB(thisDoc, p0V, p1V, pAb))
+    testEntry = ['stupid', 'my', 'love', 'dalmation', 'garbage']
+    thisDoc = array(setOfWords2Vec(myVocabList, testEntry))
+    print(testEntry, 'classified as: ', byte.classifyNB(thisDoc, p0V, p1V, pAb))
+
 
 if __name__ == '__main__':
     # nativeTest()
-    byte.testingNB()
+    testingNB()

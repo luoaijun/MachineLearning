@@ -1,16 +1,8 @@
 from numpy import *
+import math
 
 
 class Bytes:
-    def loadDataSet(self):
-        postingList = [['my', 'dog', 'has', 'flea', 'problems', 'help', 'please'],
-                       ['maybe', 'not', 'take', 'him', 'to', 'dog', 'park', 'stupid'],
-                       ['my', 'dalmation', 'is', 'so', 'cute', 'I', 'love', 'him'],
-                       ['stop', 'posting', 'stupid', 'worthless', 'garbage'],
-                       ['mr', 'licks', 'ate', 'my', 'steak', 'how', 'to', 'stop', 'him'],
-                       ['quit', 'buying', 'worthless', 'dog', 'food', 'stupid']]
-        classVec = [0, 1, 0, 1, 0, 1]  # 1 is abusive, 0 not
-        return postingList, classVec
 
     def createVocabList(self, dataSet):
         vocabSet = set([])
@@ -24,6 +16,15 @@ class Bytes:
         for word in inputSet:
             if word in vocabList:
                 returnVec[vocabList.index(word)] = 1
+            else:
+                print("the word: %s is not in my Vocabulary!" % word)
+        return returnVec
+
+    def bagOfWords2VecMN(self, vocabList, inputSet):
+        returnVec = [0] * len(vocabList)
+        for word in inputSet:
+            if word in vocabList:
+                returnVec[vocabList.index(word)] = +1
             else:
                 print("the word: %s is not in my Vocabulary!" % word)
         return returnVec
@@ -58,17 +59,3 @@ class Bytes:
             return 1
         else:
             return 0
-
-    def testingNB(self):
-        listOPosts, listClasses = self.loadDataSet()
-        myVocabList = self.createVocabList(listOPosts)
-        trainMat = []
-        for postinDoc in listOPosts:
-            trainMat.append(self.setOfWords2Vec(myVocabList, postinDoc))
-        p0V, p1V, pAb = self.trainNB0(array(trainMat), array(listClasses))
-        testEntry = ['love', 'my', 'dalmation']
-        thisDoc = array(self.setOfWords2Vec(myVocabList, testEntry))
-        print(testEntry, 'classified as: ', self.classifyNB(thisDoc, p0V, p1V, pAb))
-        testEntry = ['stupid', 'garbage']
-        thisDoc = array(self.setOfWords2Vec(myVocabList, testEntry))
-        print(testEntry, 'classified as: ', self.classifyNB(thisDoc, p0V, p1V, pAb))
