@@ -1,6 +1,6 @@
 from Classification.NaiveBayes.Byte import Bytes
 from numpy import *
-# import re
+import re
 
 byte = Bytes()
 

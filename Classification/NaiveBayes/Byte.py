@@ -31,6 +31,8 @@ class Bytes:
 
     '''
     朴素贝叶斯分类器训练器
+    trainMatrix：训练集
+    trainCategory：分类
     '''
 
     def trainNB0(self, trainMatrix, trainCategory):
