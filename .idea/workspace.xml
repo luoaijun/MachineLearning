@@ -4,7 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/Classification/Tree/TreePlotter.py" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be619e03-e327-4d00-a9bf-cedd1316da25" name="Default Changelist" comment="" />
+    <list default="true" id="be619e03-e327-4d00-a9bf-cedd1316da25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Classification/N.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,23 +17,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ML$TestKNN__1_.coverage" NAME="TestKNN (1) Coverage Results" MODIFIED="1557109254855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/knn" />
-    <SUITE FILE_PATH="coverage/ML$AppointmentKNN__1_.coverage" NAME="AppointmentKNN (1) Coverage Results" MODIFIED="1557136582431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/knn/appointment" />
-    <SUITE FILE_PATH="coverage/ML$MailFiltering.coverage" NAME="MailFiltering Coverage Results" MODIFIED="1557453731079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Native" />
-    <SUITE FILE_PATH="coverage/ML$1.coverage" NAME="1 Coverage Results" MODIFIED="1557211041696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/Tree" />
-    <SUITE FILE_PATH="coverage/ML$LogisticTest.coverage" NAME="LogisticTest Coverage Results" MODIFIED="1557478175194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Logistic" />
-    <SUITE FILE_PATH="coverage/ML$DistinguishKNN.coverage" NAME="DistinguishKNN Coverage Results" MODIFIED="1557127458806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/knn" />
     <SUITE FILE_PATH="coverage/ML$Lenses.coverage" NAME="Lenses Coverage Results" MODIFIED="1557213718639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/tree" />
-    <SUITE FILE_PATH="coverage/ML$NativeTest.coverage" NAME="NativeTest Coverage Results" MODIFIED="1557386796994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Native" />
+    <SUITE FILE_PATH="coverage/ML$1.coverage" NAME="1 Coverage Results" MODIFIED="1557211041696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/Tree" />
+    <SUITE FILE_PATH="coverage/ML$MailFiltering.coverage" NAME="MailFiltering Coverage Results" MODIFIED="1557453731079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Native" />
+    <SUITE FILE_PATH="coverage/ML$LogisticTest.coverage" NAME="LogisticTest Coverage Results" MODIFIED="1557478175194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Logistic" />
+    <SUITE FILE_PATH="coverage/ML$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1557044160705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/KNN" />
+    <SUITE FILE_PATH="coverage/ML$TestKNN__1_.coverage" NAME="TestKNN (1) Coverage Results" MODIFIED="1557109254855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/knn" />
+    <SUITE FILE_PATH="coverage/ML$TestKNN.coverage" NAME="TestKNN Coverage Results" MODIFIED="1557108142569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ML$knn.coverage" NAME="knn Coverage Results" MODIFIED="1557038458116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/KNN" />
+    <SUITE FILE_PATH="coverage/ML$DistinguishKNN.coverage" NAME="DistinguishKNN Coverage Results" MODIFIED="1557127458806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/knn" />
     <SUITE FILE_PATH="coverage/ML$Rss.coverage" NAME="Rss Coverage Results" MODIFIED="1557469909968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Native" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/ML$StringUtils.coverage" NAME="StringUtils Coverage Results" MODIFIED="1559644204640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils" />
     <SUITE FILE_PATH="coverage/ML$TestKNN.coverage" NAME="TestKNN Coverage Results" MODIFIED="1557108142569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ML$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1557044160705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/KNN" />
     <SUITE FILE_PATH="coverage/ML$Test.coverage" NAME="Test Coverage Results" MODIFIED="1559642441149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ML$AppointmentKNN.coverage" NAME="AppointmentKNN Coverage Results" MODIFIED="1557114071066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/knn" />
+=======
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
     <SUITE FILE_PATH="coverage/ML$TreePlotter.coverage" NAME="TreePlotter Coverage Results" MODIFIED="1557221420049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/Tree" />
-    <SUITE FILE_PATH="coverage/ML$knn.coverage" NAME="knn Coverage Results" MODIFIED="1557038458116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/KNN" />
+    <SUITE FILE_PATH="coverage/ML$NativeTest.coverage" NAME="NativeTest Coverage Results" MODIFIED="1557386796994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Native" />
+    <SUITE FILE_PATH="coverage/MachineLearning$N.coverage" NAME="N Coverage Results" MODIFIED="1559667570360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification" />
+    <SUITE FILE_PATH="coverage/ML$AppointmentKNN.coverage" NAME="AppointmentKNN Coverage Results" MODIFIED="1557114071066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/knn" />
     <SUITE FILE_PATH="coverage/ML$TreeTest.coverage" NAME="TreeTest Coverage Results" MODIFIED="1557212010282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/tree" />
+    <SUITE FILE_PATH="coverage/ML$AppointmentKNN__1_.coverage" NAME="AppointmentKNN (1) Coverage Results" MODIFIED="1557136582431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/knn/appointment" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -44,6 +56,38 @@
     <expand />
     <select />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-543233358">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.116" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="522" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="522" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -58,6 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classification/Logistic/Logistic.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="216">
               <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
             </state>
@@ -83,6 +128,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
               <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+=======
+            <state relative-caret-position="409">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Classification/N.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -90,15 +148,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Logistic/testSet.txt">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../python3.6/Lib/_bootlocale.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -151,11 +200,21 @@
         <option value="$PROJECT_DIR$/test/Native/Rss.py" />
         <option value="$PROJECT_DIR$/Classification/Logistic/Logistic.py" />
         <option value="$PROJECT_DIR$/test/Logistic/LogisticTest.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/test/Test.py" />
         <option value="$PROJECT_DIR$/Utils/StringUtils.py" />
         <option value="$PROJECT_DIR$/Classification/NeverRepeat/NR.py" />
+=======
+        <option value="$PROJECT_DIR$/Classification/N.py" />
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
@@ -171,23 +230,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
               <item name="Classification" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML" type="462c0819:PsiDirectoryNode" />
-              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="NeverRepeat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -198,19 +252,26 @@
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+=======
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CDES/code/luoaijun.github.io" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../work/CDES/code/python/LogLoadDemo" />
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -240,7 +301,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.StringUtils">
+=======
+  <component name="RunManager" selected="Python.N">
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
     <configuration name="LogisticTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,7 +350,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Rss" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="N" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,12 +362,16 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Native" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/Native/Rss.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classification/N.py" />
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -307,7 +380,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="StringUtils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="NativeTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -320,7 +397,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Utils/StringUtils.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/Native/NativeTest.py" />
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,7 +410,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="Rss" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -337,12 +422,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Native" />
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/Test.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/Native/Rss.py" />
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -351,13 +444,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.LogisticTest" />
+      <item itemvalue="Python.MailFiltering" />
+      <item itemvalue="Python.NativeTest" />
+      <item itemvalue="Python.Rss" />
+      <item itemvalue="Python.N" />
+    </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.StringUtils" />
         <item itemvalue="Python.Test" />
         <item itemvalue="Python.LogisticTest" />
         <item itemvalue="Python.Rss" />
         <item itemvalue="Python.MailFiltering" />
+=======
+        <item itemvalue="Python.N" />
+        <item itemvalue="Python.LogisticTest" />
+        <item itemvalue="Python.Rss" />
+        <item itemvalue="Python.MailFiltering" />
+        <item itemvalue="Python.NativeTest" />
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
       </list>
     </recent_temporary>
   </component>
@@ -497,20 +605,34 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.61315787" visible="true" weight="0.26354083" />
       <window_info id="Structure" order="1" sideWeight="0.3868421" side_tool="true" weight="0.26354083" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49717057" weight="0.3250444" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6157895" visible="true" weight="0.26354083" />
+      <window_info id="Structure" order="1" sideWeight="0.38421053" side_tool="true" weight="0.24252222" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.497979" visible="true" weight="0.3250444" />
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4987874" weight="0.43339255" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4995958" weight="0.3339254" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50282943" side_tool="true" weight="0.3250444" />
+=======
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502021" side_tool="true" weight="0.3250444" />
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32978722" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -522,6 +644,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first knn" />
@@ -604,6 +729,7 @@
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/test/Test.py</url>
           <line>30</line>
           <option name="timeStamp" value="33" />
@@ -612,6 +738,11 @@
           <url>file://$PROJECT_DIR$/Utils/StringUtils.py</url>
           <line>17</line>
           <option name="timeStamp" value="36" />
+=======
+          <url>file://$PROJECT_DIR$/Classification/N.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="33" />
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -625,6 +756,36 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>dictSout.__len__() * list(dictSout.values())[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list(dictSout.values())</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dictSout.__len__()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dictSout.values()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dictSout.values</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dictSout.values(i)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>dataMatrix</expression-string>
         <language-id>Python</language-id>
@@ -640,54 +801,12 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>fr</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>wordVector</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>docList</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>testSet</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>p0Num</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>p1Num</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/res.properties" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1964217418/numpy/core/_multiarray_umath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="7816" column="7" selection-start-line="7816" selection-start-column="7" selection-end-line="7816" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../python3.6/Lib/site-packages/numpy/lib/shape_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="1154" column="4" selection-start-line="1154" selection-start-column="4" selection-end-line="1154" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1964217418/numpy/core/_multiarray_umath.py" />
+    <entry file="file://$PROJECT_DIR$/../../python3.6/Lib/site-packages/numpy/lib/shape_base.py" />
     <entry file="file://$PROJECT_DIR$/test/knn/log_knn.log" />
     <entry file="file://$PROJECT_DIR$/test/knn/log_knn_20190506.log" />
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -793,9 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="931">
           <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,13 +949,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../python3.6/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="204" column="36" lean-forward="true" selection-start-line="204" selection-start-column="36" selection-end-line="204" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../python3.6/Lib/re.py" />
     <entry file="file://$PROJECT_DIR$/Classification/NaiveBayes/Byte.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -913,25 +1023,38 @@
     <entry file="file://$PROJECT_DIR$/test/Logistic/horseColicTest.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test/Logistic/testSet.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Test.py">
+=======
+    <entry file="file://$PROJECT_DIR$/../../python3.6/Lib/_bootlocale.py" />
+    <entry file="file://$PROJECT_DIR$/test/Logistic/LogisticTest.py">
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="58" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../../python3.6/Lib/_bootlocale.py">
+=======
+    <entry file="file://$PROJECT_DIR$/test/Logistic/testSet.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/Logistic/Logistic.py">
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="409">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classification/Logistic/Logistic.py">
+    <entry file="file://D:/Python/python3.6/Lib/collections/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="216">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
         </state>
@@ -941,6 +1064,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
+=======
+        <state relative-caret-position="117">
+          <caret line="584" column="8" selection-start-line="584" selection-start-column="8" selection-end-line="584" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/N.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+>>>>>>> 669693ae05e35916329d904413a3dc6c40b37621
         </state>
       </provider>
     </entry>
