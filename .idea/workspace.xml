@@ -4,7 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/Classification/Tree/TreePlotter.py" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be619e03-e327-4d00-a9bf-cedd1316da25" name="Default Changelist" comment="" />
+    <list default="true" id="be619e03-e327-4d00-a9bf-cedd1316da25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Classification/NeverRepeat/NR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/StringUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +26,10 @@
     <SUITE FILE_PATH="coverage/ML$Lenses.coverage" NAME="Lenses Coverage Results" MODIFIED="1557213718639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/tree" />
     <SUITE FILE_PATH="coverage/ML$NativeTest.coverage" NAME="NativeTest Coverage Results" MODIFIED="1557386796994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Native" />
     <SUITE FILE_PATH="coverage/ML$Rss.coverage" NAME="Rss Coverage Results" MODIFIED="1557469909968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Native" />
+    <SUITE FILE_PATH="coverage/ML$StringUtils.coverage" NAME="StringUtils Coverage Results" MODIFIED="1559644204640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils" />
     <SUITE FILE_PATH="coverage/ML$TestKNN.coverage" NAME="TestKNN Coverage Results" MODIFIED="1557108142569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ML$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1557044160705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/KNN" />
+    <SUITE FILE_PATH="coverage/ML$Test.coverage" NAME="Test Coverage Results" MODIFIED="1559642441149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/ML$AppointmentKNN.coverage" NAME="AppointmentKNN Coverage Results" MODIFIED="1557114071066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/knn" />
     <SUITE FILE_PATH="coverage/ML$TreePlotter.coverage" NAME="TreePlotter Coverage Results" MODIFIED="1557221420049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/Tree" />
     <SUITE FILE_PATH="coverage/ML$knn.coverage" NAME="knn Coverage Results" MODIFIED="1557038458116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classification/KNN" />
@@ -47,17 +54,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Logistic/LogisticTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
+            <state relative-caret-position="289">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classification/Logistic/Logistic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="216">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Classification/NeverRepeat/NR.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utils/StringUtils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -126,6 +156,9 @@
         <option value="$PROJECT_DIR$/test/Native/Rss.py" />
         <option value="$PROJECT_DIR$/Classification/Logistic/Logistic.py" />
         <option value="$PROJECT_DIR$/test/Logistic/LogisticTest.py" />
+        <option value="$PROJECT_DIR$/test/Test.py" />
+        <option value="$PROJECT_DIR$/Utils/StringUtils.py" />
+        <option value="$PROJECT_DIR$/Classification/NeverRepeat/NR.py" />
       </list>
     </option>
   </component>
@@ -160,18 +193,12 @@
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML" type="462c0819:PsiDirectoryNode" />
               <item name="Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="SVM" type="462c0819:PsiDirectoryNode" />
+              <item name="NeverRepeat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Logistic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
@@ -185,7 +212,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CDES/code/jekyll-jacman-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CDES/code/luoaijun.github.io" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
@@ -218,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LogisticTest">
+  <component name="RunManager" selected="Python.StringUtils">
     <configuration name="LogisticTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,28 +290,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NativeTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Native" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/Native/NativeTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Rss" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,7 +312,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TreePlotter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="StringUtils" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -315,12 +320,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classification/Tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classification/Tree/TreePlotter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Utils/StringUtils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,11 +358,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.StringUtils" />
+        <item itemvalue="Python.Test" />
         <item itemvalue="Python.LogisticTest" />
         <item itemvalue="Python.Rss" />
         <item itemvalue="Python.MailFiltering" />
-        <item itemvalue="Python.NativeTest" />
-        <item itemvalue="Python.TreePlotter" />
       </list>
     </recent_temporary>
   </component>
@@ -356,6 +383,9 @@
       <workItem from="1558063733383" duration="3267000" />
       <workItem from="1558075089503" duration="598000" />
       <workItem from="1558082084363" duration="1263000" />
+      <workItem from="1558512436469" duration="1529000" />
+      <workItem from="1558594708348" duration="200000" />
+      <workItem from="1559641973376" duration="2762000" />
     </task>
     <task id="LOCAL-00001" summary="first knn">
       <created>1557046713023</created>
@@ -448,21 +478,29 @@
       <option name="project" value="LOCAL" />
       <updated>1557470782137</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="native">
+      <created>1558512495217</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1558512495217</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115735000" />
+    <option name="totallyTimeSpent" value="120226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6157895" visible="true" weight="0.25141472" />
-      <window_info id="Structure" order="1" sideWeight="0.38421053" side_tool="true" weight="0.24252222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.61315787" visible="true" weight="0.26354083" />
+      <window_info id="Structure" order="1" sideWeight="0.3868421" side_tool="true" weight="0.26354083" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497979" weight="0.3250444" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497979" visible="true" weight="0.3250444" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4987874" weight="0.43339255" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -562,6 +600,16 @@
           <url>file://$PROJECT_DIR$/test/Logistic/LogisticTest.py</url>
           <line>34</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/Test.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Utils/StringUtils.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -863,15 +911,15 @@
     <entry file="file://$PROJECT_DIR$/test/Logistic/horseColicTest.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Logistic/LogisticTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Logistic/testSet.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../python3.6/Lib/_bootlocale.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -882,10 +930,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Classification/Logistic/Logistic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="216">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Logistic/LogisticTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/StringUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/NeverRepeat/NR.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
