@@ -1,6 +1,6 @@
 from numpy import *
 
-from Classification.NaiveBayes.Byte import Bytes
+from KongFuPanda.Classification import Bytes
 
 byte = Bytes()
 
@@ -11,8 +11,8 @@ def loadDataSet():
                    ['my', 'dalmation', 'is', 'so', 'cute', 'I', 'love', 'him'],
                    ['stop', 'posting', 'stupid', 'worthless', 'garbage'],
                    ['mr', 'licks', 'ate', 'my', 'steak', 'how', 'to', 'stop', 'him'],
-                   ['quit', 'buying', 'worthless', 'dog', 'food', 'stupid']]
-    classVec = [0, 1, 0, 1, 0, 1]  # 1 is abusive, 0 not
+                   ['quit', 'worthless', 'dog', 'stupid']]
+    classVec = [0, 1, 0, 1, 0, 1]  # 1 is 词性偏负面, 0 词性偏正面
     return postingList, classVec
 
 
@@ -70,10 +70,10 @@ def testingNB():
     for postinDoc in listOPosts:
         trainMat.append(setOfWords2Vec(myVocabList, postinDoc))
     p0V, p1V, pAb = trainNB0(array(trainMat), array(listClasses))
-    testEntry = ['love', 'my', 'dalmation']
+    testEntry = ['stupid', 'my', 'dalmation']
     thisDoc = array(setOfWords2Vec(myVocabList, testEntry))
     print(testEntry, 'classified as: ', byte.classifyNB(thisDoc, p0V, p1V, pAb))
-    testEntry = ['stupid', 'my', 'love', 'dalmation', 'garbage']
+    testEntry = ['stupid']
     thisDoc = array(setOfWords2Vec(myVocabList, testEntry))
     print(testEntry, 'classified as: ', byte.classifyNB(thisDoc, p0V, p1V, pAb))
 

@@ -2,7 +2,7 @@ import time
 
 from numpy import *
 
-from Classification.KNN import KNN
+from KongFuPanda.Classification.KNN import KNN
 
 '''
 加载数据

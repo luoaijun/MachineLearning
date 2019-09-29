@@ -1,4 +1,3 @@
-from Classification.Tree.Tree import *
 tree = Tree()
 
 def lense():

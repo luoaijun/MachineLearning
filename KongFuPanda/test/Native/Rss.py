@@ -1,7 +1,5 @@
 import feedparser
 
-from Classification.NaiveBayes.Byte import *
-
 byte = Bytes()
 
 
@@ -15,7 +13,6 @@ def calcMostFreq(vocabList, fullText):
 
 
 def localWords(feed1, feed0):
-    import feedparser
     docList = [];
     classList = [];
     fullText = []

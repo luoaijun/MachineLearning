@@ -1,6 +1,6 @@
 from os import *
 
-from Classification.KNN import KNN
+from KongFuPanda.Classification.KNN import KNN
 from numpy import *
 
 knn = KNN.knn()

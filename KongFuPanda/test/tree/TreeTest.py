@@ -1,4 +1,4 @@
-from Classification.Tree.Tree import Tree
+from KongFuPanda.Classification import Tree
 
 tree = Tree()
 

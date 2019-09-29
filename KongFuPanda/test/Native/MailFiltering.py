@@ -1,6 +1,5 @@
-from Classification.NaiveBayes.Byte import Bytes
+from KongFuPanda.Classification import Bytes
 from numpy import *
-import re
 
 byte = Bytes()
 
